@@ -1,0 +1,69 @@
+
+.Suggestions {
+    transform: translateY(-15px);
+    transition: all .7s;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    min-height: 50vh;
+    
+}
+
+.box {
+    padding: 25px;
+    width: 55%;
+    background-color: #fff;
+}
+
+.details{
+    display: flex;
+}
+
+.img {
+    overflow: hidden;
+    margin-right: 40px;
+    min-width: 30px;
+    transition: .2s all;
+}
+.img:hover{
+    transform: scale(1.05);
+}
+
+.img img {
+    width: 90%;
+    height: 90%;
+    min-height: 50px;
+    max-height: 150px;
+}
+
+h3{
+    font-weight: 400;
+    padding-block: 5px;
+}
+
+p{
+    font-weight: 300;
+    font-size: small;
+}
+
+@media only screen and (max-width:800px) {
+    p{
+        font-size: x-small;
+    }
+    .img{
+        margin: 5px;
+        max-height: 125px;
+    }
+    .img img {
+        width: 80%;
+        height: 60%;
+        
+    }
+    .box{
+        width: 70%;
+    }
+}
+
+
+

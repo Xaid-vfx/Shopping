@@ -1,0 +1,17 @@
+.Results {
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+
+@media only screen and (max-width:950px) {
+    .Results {
+        
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+}

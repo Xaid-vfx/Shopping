@@ -1,0 +1,60 @@
+.filters{
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-20vh);
+    opacity: 0;
+    transition: 1s all;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.line{
+    width: 200px;
+    border: 1px solid;
+    opacity: .1;
+}
+
+.flex{
+    display: flex;
+    gap:3%;
+}
+
+.filtername{
+    font-weight: 500;
+    font-size: medium;
+}
+.drop{
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:950px) {
+    .options{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        min-width: 200px;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+        gap:3%;
+    }
+    .filter{
+
+        display: flex;
+        justify-content:space-between;
+    }.line{
+        display: none
+    }
+
+}

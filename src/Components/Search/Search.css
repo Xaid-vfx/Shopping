@@ -1,0 +1,38 @@
+.search{
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    transition: all 1s;
+}
+
+.search input{
+    padding: 15px 25px;
+    width: 49%;
+    border-radius: 20px;
+    border: 0;
+    outline:none
+}
+
+.search input[type=text]{
+    font-size: larger;
+}
+
+.icon{
+    position: absolute;
+    margin-top: 10px;
+    left: 72%;
+    transform: scale(1.3);
+    padding: 10px;
+}
+.icon:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+
+@media only screen and (max-width:800px) {
+    .icon{
+    
+        left: 69%;
+        
+    }
+}
