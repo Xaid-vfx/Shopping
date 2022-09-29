@@ -22,7 +22,7 @@ export default function Card(props) {
           </div>
 
           <p>{props.product.title}</p>
-          <div className='flex'><p>${props.product.price}</p>
+          <div className='flex'><p className='price'>${props.product.price}</p>
             <FontAwesomeIcon className={`icon1 ${id === props.product.id ? 'red' : ''}`} id={Math.random} onClick={(e) => {
               setId(props.product.id);
             }} icon={faHeart} />
