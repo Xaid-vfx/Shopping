@@ -34,7 +34,7 @@ export default function Filters(props) {
         
         min = checkedValue2.length ? checkedValue2[0].split('-')[0] : null;
         max = checkedValue2.length ? checkedValue2[checkedValue2.length-1].split('-')[1] : null;
-        console.log(min,max);
+        
             
          
         props.showfilters(checkedValue1,min,max)

@@ -81,7 +81,7 @@ export default function App() {
   function showfilters(f11,min,max){
     setf1(f11);
     setf2([min,max]);
-    console.log(f1,f2);
+    
   }
 
 
