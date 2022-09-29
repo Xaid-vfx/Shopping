@@ -3,7 +3,6 @@ import Filters from './Components/Filters/Filters';
 import Search from './Components/Search/Search'
 import Suggestions from './Components/Suggestions/Suggestions'
 import Results from './Components/Results/Results';
-import {Routes,Route} from 'react-router-dom'
 import Image from './Components/Image';
 
 export default function App() {
